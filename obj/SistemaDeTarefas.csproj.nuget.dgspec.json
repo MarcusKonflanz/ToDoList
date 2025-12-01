@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSharp\\SistemaDeTarefas\\SistemaDeTarefas\\SistemaDeTarefas.csproj": {}
+    "C:\\CSharp\\ToDoList\\SistemaDeTarefas.csproj": {}
   },
   "projects": {
-    "C:\\CSharp\\SistemaDeTarefas\\SistemaDeTarefas\\SistemaDeTarefas.csproj": {
+    "C:\\CSharp\\ToDoList\\SistemaDeTarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\SistemaDeTarefas\\SistemaDeTarefas\\SistemaDeTarefas.csproj",
+        "projectUniqueName": "C:\\CSharp\\ToDoList\\SistemaDeTarefas.csproj",
         "projectName": "SistemaDeTarefas",
-        "projectPath": "C:\\CSharp\\SistemaDeTarefas\\SistemaDeTarefas\\SistemaDeTarefas.csproj",
+        "projectPath": "C:\\CSharp\\ToDoList\\SistemaDeTarefas.csproj",
         "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\SistemaDeTarefas\\SistemaDeTarefas\\obj\\",
+        "outputPath": "C:\\CSharp\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,6 +70,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.22, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "SistemaDeTarefas.Controllers.CepController",
+    "Method": "ListarDadosEndereco",
+    "RelativePath": "api/Cep/{cep}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cep",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaDeTarefas.Integracao.Response.ViaCepResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "SistemaDeTarefas.Controllers.TarefaController",
     "Method": "BuscarTodasTarefas",
     "RelativePath": "api/Tarefa",
